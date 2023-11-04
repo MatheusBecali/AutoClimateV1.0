@@ -1,14 +1,16 @@
 /*************************************************************
 
-  This is a simple demo of sending and receiving some data.
-  Be sure to check out other examples!
+  Project: Auto Climate V 1.0 (Made for IoT class)
+  Name: Matheus Becali Rocha
+  E-mail: matheusbecali@gmail.com
+  
  *************************************************************/
 
 // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
 // See the Device Info tab, or Template settings
 #define BLYNK_TEMPLATE_ID           "TMPLhxTxoZXw"
 #define BLYNK_DEVICE_NAME           "Quickstart Device"
-#define BLYNK_AUTH_TOKEN            "84a2V4wv2Uul7JY70GTgHazhmRIgJVMd"
+#define BLYNK_AUTH_TOKEN            "BLINKAUTHTOKEN"
 
 
 // Comment this out to disable prints and save space
@@ -24,8 +26,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "32.4Kbps";
-char pass[] = "p98041193";
+char ssid[] = "YOURNETWORK";
+char pass[] = "YOURPASS";
 
 BlynkTimer timer;
 
